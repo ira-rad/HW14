@@ -15,7 +15,7 @@ body {
 }
 
 * {
-    -webkit-box-sizing: border-box;
+    
     box-sizing: border-box;
 }
 
@@ -134,8 +134,6 @@ header .phone {
     color: #ffdc00;
     left: 0;
     top: 50%;
-    -webkit-transform: translate(0, -50%);
-    -ms-transform: translate(0, -50%);
     transform: translate(0, -50%);
     position: absolute;
 }
@@ -147,21 +145,12 @@ header .phone {
     width: 120px;
     height: 120px;
     font-size: 18px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     padding-left: 5px;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
     flex-direction: column;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     justify-content: center;
     text-align: center;
     line-height: 28px;
-    -webkit-transform: rotate(15deg);
-    -ms-transform: rotate(15deg);
     transform: rotate(15deg);
     font-family: "HelveticaNeueBold";
 }
@@ -272,16 +261,9 @@ button {
 }
 
 .main-screen .left-block, .main-screen .right-block {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     height: 100%;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
     flex-direction: column;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     justify-content: center;
     width: 45%;
     min-width: 525px;
@@ -403,20 +385,13 @@ button {
 .reasons .reason .square {
     text-align: center;
     height: 70px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
     flex-direction: column;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     justify-content: center;
 }
 
 .reason.reas{
-    ustify-content: center;
+    justify-content: center;
     display: inline-flex;
     flex-direction: column;
     align-items: center;
@@ -487,8 +462,6 @@ button {
 .reviews .arrow-left, .reviews .arrow-right {
     position: absolute;
     top: 50%;
-    -webkit-transform: translate(0, -50%);
-    -ms-transform: translate(0, -50%);
     transform: translate(0, -50%);
 }
 
@@ -588,11 +561,7 @@ button {
 
 .advantages {
     text-align: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
     justify-content: space-between;
     margin-top: 50px;
     margin-bottom: 50px;
